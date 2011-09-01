@@ -71,8 +71,8 @@ function accm_footer() {
             	<form method="post" action="<?php echo substr(strstr(get_permalink(), '.com/'),4); ?>">
                 	<textarea name="accm_comment" rows="5"></textarea>
                     <input class="ac-right" type="submit" name="accm_submit" value="POST" />
-                    <?php /*?><input class="ac-right" type="submit" name="accm_get_emails" value="EMAILS" />
-                    <input class="ac-right" type="submit" name="accm_clear_comments" value="CLEAR" /><?php */?>
+                    <!--<input class="ac-right" type="submit" name="accm_get_emails" value="EMAILS" />
+                    <input class="ac-right" type="submit" name="accm_clear_comments" value="CLEAR" />-->
                 </form>
             </div>
             <div class="ac-comment-list">
